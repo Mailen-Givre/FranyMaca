@@ -1,0 +1,121 @@
+.watercolorBackground{
+    background-image: url(../multimedia//watercolorBackground-01.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.nosCasamos{
+    width: 70%;
+    /* TODO arreglar margin */
+    margin: 30% 15%;
+    text-align: center;
+}
+
+.flechaAbajo{
+    width: 2rem;
+    display: block;
+    margin: 2rem auto;
+}
+
+.backGold{
+    background-color: #ddc190;
+    height: 8rem;
+}
+
+.flechaAbajo {
+    animation: MoveUpDown 2s linear infinite;
+  }
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+      opacity: 0;
+    }
+    50% {
+      transform: translateY(-10px);
+      opacity: 1;
+    }
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-top: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.blanco{
+    background-color: white;
+}
+
+.icono{
+    height: 4rem;
+    display: block;
+    padding: 2rem 0;
+    margin: 0 auto;
+}
+
+.color{
+    color:#ddc190;
+}
+
+.info{
+    width: 90%;
+}
+
+.btn{
+    background-color: #ddc190;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 2rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    margin: 2rem auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.espacio{
+    margin: 3rem 0;
+}
+
+.img{
+    border-radius: 1rem;
+    width: 20rem;
+    display: block;
+    margin: 2rem auto;
+}
+
+.dorado{
+    background-color: #ddc190;
+}
+
+.btn-blanco{
+    /* TODO modal */
+    background-color: white;
+    color: #ddc190;
+}
+
+.regalo{
+    height: 20rem;
+}
