@@ -119,3 +119,35 @@ a{
 .regalo{
     height: 20rem;
 }
+
+.asistencia{
+    height: 20rem;
+}
+
+.paddingTop{
+    padding-top: 2rem;
+}
+
+.paddingBottom{
+    padding-bottom: 2rem;
+}
+
+.verde{
+    background-color: #a3b49b;
+}
+
+.negro{
+    color: black;
+}
+
+.btn-negro{
+    background-color: black;
+}
+
+.canciones{
+    height: 20rem;
+}
+
+.covid{
+    height: 19rem;
+}
