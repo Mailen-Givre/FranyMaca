@@ -241,4 +241,29 @@ a{
   .creditos p{
         font-size: 14px;
         padding: 2px 0;
+        margin-right: 4rem;
+  }
+
+  #btnScroll {
+    display: none;
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    z-index: 99;
+    border: 5px solid white;
+    outline: none;
+    background-color: #ddc190;
+    cursor: pointer;
+    padding:  1rem;
+    border-radius: 2rem;
+  }
+
+  .flechaArriba {
+      transform: scaleY(-1);
+      width: 1rem;
+  }
+  
+  #btnScroll:hover {
+    background-color: white;
+    border-color: #ddc190;
   }
