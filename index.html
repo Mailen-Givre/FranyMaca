@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./swipebox/src/css/swipebox.min.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=WindSong:wght@500&display=swap" rel="stylesheet">
@@ -32,7 +33,7 @@
         <img class="flechaAbajo" src="./multimedia/arrowDown.svg" alt="flecha abajo">
     </div>
     <div class="backGold">
-        <p >Falta</p>
+        <p >Faltan</p>
         <h3 id="faltan"></h3>
     </div>
     <div class="blanco altura">
@@ -46,15 +47,31 @@
         <a href="https://goo.gl/maps/7HE7mxQ7uzaMMMTE9" target="_blank"><button class="btn">¿En dónde?</button></a>
 
         <h3 class="negro espacio">NOSOTROS</h3>
-        <div class="imagenes">
-            <img class="img" src="./multimedia/fotos/D7S_4173.jpg" alt="">
-            <img class="img" id="moverImg" src="./multimedia/fotos/D7S_4252.jpg" alt="">
-            <img class="img" src="./multimedia/fotos/D7S_4301.jpg" alt="">
-            <img class="img" src="./multimedia/fotos/D7S_4386.jpg" alt="">
-            <img class="img" src="./multimedia/fotos/D7S_4401.jpg" alt="">
-            <img class="img" src="./multimedia/fotos/D7S_4490.jpg" alt="">
-            <img class="img" src="./multimedia/fotos/D7S_4516.jpg" alt="">
-            <img class="img" src="./multimedia/fotos/D7S_4648.jpg" alt="">
+        <div class="imagenes" id="gallery-container">
+            <a class="swipebox img" href="./multimedia/fotos/D7S_4173.jpg">
+                <img class="img" src="./multimedia/fotos/D7S_4173.jpg" alt="">
+            </a>
+            <a class="swipebox img" href="./multimedia/fotos/D7S_4252.jpg">
+                <img class="img" id="moverImg" src="./multimedia/fotos/D7S_4252.jpg" alt="">
+            </a>
+            <a class="swipebox img" href="./multimedia/fotos/D7S_4301.jpg">
+                <img class="img" src="./multimedia/fotos/D7S_4301.jpg" alt="">
+            </a>
+            <a class="swipebox img" href="./multimedia/fotos/D7S_4386.jpg">
+                <img class="img" src="./multimedia/fotos/D7S_4386.jpg" alt="">
+            </a>
+            <a class="swipebox img" href="./multimedia/fotos/D7S_4401.jpg">
+                <img class="img" src="./multimedia/fotos/D7S_4401.jpg" alt="">
+            </a>
+            <a class="swipebox img" href="./multimedia/fotos/D7S_4490.jpg">
+                <img class="img" src="./multimedia/fotos/D7S_4490.jpg" alt="">
+            </a>
+            <a class="swipebox img" href="./multimedia/fotos/D7S_4516.jpg">
+                <img class="img" src="./multimedia/fotos/D7S_4516.jpg" alt="">
+            </a>
+            <a class="swipebox img" href="./multimedia/fotos/D7S_4648.jpg">
+                <img class="img" src="./multimedia/fotos/D7S_4648.jpg" alt="">
+            </a>
         </div>
     </div>
     <div class="dorado altura">
@@ -111,5 +128,8 @@
         <p class="color">Página diseñada por Mailén Givré</p>
         <a href="https://github.com/Mailen-Givre" target="_blank"><p class="color negro">Ver más</p></a>
     </div>
+    <script src="./swipebox/lib/jquery-3.5.1.min.js"></script>
+    <script src="./swipebox/src/js/jquery.swipebox.min.js"></script>
+    <script src="js/gallery.js"></script>
 </body>
 </html>
