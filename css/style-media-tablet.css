@@ -1,0 +1,30 @@
+.photoBackground{
+    background-image: url(../multimedia/nosCasamosFoto2.jpg);
+    max-width:1024px;
+}
+
+.fundido{
+    margin-top: 55vh;
+}
+
+.nosCasamos{
+    width: 40%;
+    margin-left: 2rem;
+    margin-top: 0;
+    padding: 1rem 0 0 0;
+}
+
+.hojas{
+    right:0;
+    transform: scaleX(-1);
+    width: 40%;
+}
+
+.imagenes{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.espacio{
+    margin-top: 7rem;
+}

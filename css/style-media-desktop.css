@@ -1,0 +1,56 @@
+.photoBackground{
+    max-width:none;
+    width: 100%;
+    top:0;
+}
+
+.fundido{
+    margin-top: 65vh;
+}
+
+.nosCasamos{
+    width: 30%;
+    margin-left: 10rem;
+}
+
+.imagenes{
+    width: 80%;
+    margin: 0 auto;
+}
+
+p{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 35px;
+}
+
+.btn{
+    font-size: 25px;
+}
+
+.info{
+    width: 60%;
+}
+
+.flex{
+    width: 20%;
+    padding: 3rem 0;
+}
+
+.regalo{
+    height: 20rem;
+}
+
+.flechaAbajo{
+    width: 3rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.img:hover{
+    cursor: pointer;
+}

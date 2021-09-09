@@ -9,7 +9,7 @@
     font-family: 'Nunito', sans-serif;
   }
 
-.watercolorBackground{
+.photoBackground{
     background-image: url(../multimedia/nosCasamosFoto.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -25,7 +25,6 @@
 }
 
 .fundido{
-    /* height: 10rem; */
     width: 100%;
     z-index: 0;
     margin: 60vh auto 0 auto;
@@ -58,6 +57,18 @@
     margin: 0 auto;
     padding: 2rem 0;
     z-index: 1;
+    animation: MoveUpDown 2s linear infinite;
+}
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+      opacity: 0;
+    }
+    50% {
+      transform: translateY(-10px);
+      opacity: 1;
+    }
 }
 
 .hojas{
@@ -71,21 +82,6 @@
 .backGold{
     background-color: #ddc190;
     height: 8rem;
-}
-
-.flechaAbajo {
-    animation: MoveUpDown 2s linear infinite;
-  }
-  
-  @keyframes MoveUpDown {
-    0%, 100% {
-      transform: translateY(0);
-      opacity: 0;
-    }
-    50% {
-      transform: translateY(-10px);
-      opacity: 1;
-    }
 }
 
 p{
@@ -109,9 +105,9 @@ h3{
 }
 
 .icono{
-    height: 10rem;
+    height: 8rem;
     display: block;
-    padding: 2rem 0;
+    padding-bottom: 2rem;
     margin: 0 auto;
 }
 
@@ -173,14 +169,6 @@ a{
     color: #ddc190;
 }
 
-.regalo{
-    height: 20rem;
-}
-
-.asistencia{
-    height: 20rem;
-}
-
 .paddingTop{
     padding-top: 2rem;
 }
@@ -201,10 +189,11 @@ a{
     background-color: black;
 }
 
-.canciones{
-    height: 20rem;
+.altura{
+    height: auto;
+    padding: 2rem;
 }
 
-.covid{
-    height: 19rem;
+.transparente{
+    background-color: rgb(255, 255, 255, 0.3);;
 }
