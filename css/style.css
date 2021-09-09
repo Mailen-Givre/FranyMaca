@@ -231,12 +231,6 @@ a{
     font-weight: bold;
   }
   
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
 
   .creditos p{
         font-size: 14px;
@@ -263,7 +257,4 @@ a{
       width: 1rem;
   }
   
-  #btnScroll:hover {
-    background-color: white;
-    border-color: #ddc190;
-  }
+  
