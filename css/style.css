@@ -9,6 +9,80 @@
     font-family: 'Nunito', sans-serif;
   }
 
+  /* Textos */
+  p{
+    font-size: 18px;
+    color: white;
+    padding-top: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Colores */
+.fondoBlanco{
+    background-color: white;
+}
+
+.fuenteDorado{
+    color:#ddc190;
+}
+
+.fuenteNegra{
+    color: black;
+}
+
+.fondoDorado{
+    background-color: #ddc190;
+}
+
+.fondoVerde{
+    background-color: #a3b49b;
+}
+
+.transparente{
+    background-color: rgb(255, 255, 255, 0.3);;
+}
+
+/* Espacialidad */
+.espacio{
+    margin: 3rem 0;
+}
+
+.paddingTop{
+    padding-top: 2rem;
+}
+
+.paddingBottom{
+    padding-bottom: 2rem;
+}
+
+.altura{
+    padding: 2rem;
+}
+
+.flex{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.info{
+    width: 90%;
+}
+
+/* Imgs */
 .photoBackground{
     background-image: url(../multimedia/nosCasamosFoto2.jpg);
     background-repeat: no-repeat;
@@ -78,30 +152,9 @@
     bottom: 0;
 }
 
-
 .backGold{
     background-color: #ddc190;
     height: 8rem;
-}
-
-p{
-    font-size: 18px;
-    color: white;
-    padding-top: 1rem;
-    text-align: center;
-    margin: 0 auto;
-    font-weight: 400;
-}
-
-h3{
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.fondoBlanco{
-    background-color: white;
 }
 
 .icono{
@@ -109,40 +162,6 @@ h3{
     display: block;
     padding-bottom: 2rem;
     margin: 0 auto;
-}
-
-.flex{
-    display: flex;
-    width: 70%;
-    margin: 0 auto;
-}
-
-.fuenteDorado{
-    color:#ddc190;
-}
-
-.info{
-    width: 90%;
-}
-
-.btn{
-    background-color: #ddc190;
-    color: white;
-    font-size: 18px;
-    font-weight: 300;
-    border-radius: 2rem;
-    border: none;
-    padding: 1rem 2rem;
-    display: block;
-    margin: 2rem auto;
-}
-
-a{
-    text-decoration: none;
-}
-
-.espacio{
-    margin: 3rem 0;
 }
 
 .imagenes{
@@ -162,8 +181,17 @@ a{
     object-position: 0 10%;
 }
 
-.fondoDorado{
+/* Botones */
+.btn{
     background-color: #ddc190;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 2rem;
+    border: none;
+    padding: 1rem 2rem;
+    display: block;
+    margin: 2rem auto;
 }
 
 .btn-blanco{
@@ -171,35 +199,42 @@ a{
     color: #ddc190;
 }
 
-.paddingTop{
-    padding-top: 2rem;
-}
-
-.paddingBottom{
-    padding-bottom: 2rem;
-}
-
-.verde{
-    background-color: #a3b49b;
-}
-
-.fuenteNegra{
-    color: black;
-}
-
 .btn-negro{
     background-color: black;
 }
 
-.altura{
-    padding: 2rem;
+#btnScroll {
+    display: none;
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    z-index: 99;
+    border: 5px solid white;
+    outline: none;
+    background-color: #ddc190;
+    cursor: pointer;
+    padding:  1rem;
+    border-radius: 2rem;
 }
 
-.transparente{
-    background-color: rgb(255, 255, 255, 0.3);;
+.flechaArriba {
+    transform: scaleY(-1);
+    width: 1rem;
+}
+ 
+/* Creditos */
+.creditos p{
+    font-size: 14px;
+    padding: 2px 0;
+    margin-right: 4rem;
 }
 
-/* Modal*/
+#ver{
+    color: #a3b49b;
+    font-size: 12px;
+}
+
+ /* Modal*/
 .modal {
     display: none;
     position: fixed;
@@ -212,49 +247,23 @@ a{
     background-color: rgb(221, 193, 144, 0.8); /* Black w/ opacity */
   }
   
-  .modal-content {
+.modal-content {
     background-color: white;
     border-radius: 2rem;
     margin: 35% auto;
     padding: 20px;
     width: 80%;
-  }
+}
 
-  .modal-content p{
-    line-height: 50px;
-  }
-  
-  .close {
+.modal-content p{
+    line-height: 50px;  
+}
+
+.close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
-  
-
-  .creditos p{
-        font-size: 14px;
-        padding: 2px 0;
-        margin-right: 4rem;
-  }
-
-  #btnScroll {
-    display: none;
-    position: fixed;
-    bottom: 2rem;
-    right: 1rem;
-    z-index: 99;
-    border: 5px solid white;
-    outline: none;
-    background-color: #ddc190;
-    cursor: pointer;
-    padding:  1rem;
-    border-radius: 2rem;
-  }
-
-  .flechaArriba {
-      transform: scaleY(-1);
-      width: 1rem;
-  }
+}
   
   

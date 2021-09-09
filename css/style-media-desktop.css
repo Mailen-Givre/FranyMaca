@@ -1,3 +1,23 @@
+/* Textos */
+p{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 35px;
+}
+
+/* Espacialidad */
+.info{
+    width: 60%;
+}
+
+.flex{
+    width: 20%;
+    padding: 3rem 0;
+}
+
+/* Imgs */
 .photoBackground{
     max-width:none;
     width: 100%;
@@ -24,29 +44,19 @@
     margin: 0 auto;
 }
 
-p{
-    font-size: 25px;
-}
-
-h3{
-    font-size: 35px;
-}
-
-.btn{
-    font-size: 25px;
-}
-
-.info{
-    width: 60%;
-}
-
-.flex{
-    width: 20%;
-    padding: 3rem 0;
-}
-
 .flechaAbajo{
     width: 3rem;
+}
+
+.img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    border: 0.3rem solid white;
+}
+
+/* Botones */
+.btn{
+    font-size: 25px;
 }
 
 .btn:hover{
@@ -56,10 +66,9 @@ h3{
     border: 1px solid #ddc190;
 }
 
-.img:hover{
-    cursor: pointer;
-    transform: scale(1.2);
-    border: 0.3rem solid white;
+.btn-negro:hover{
+    color: black;
+    border-color: black;
 }
 
 .btn-blanco:hover{
@@ -68,11 +77,26 @@ h3{
     border-color: white;
 }
 
-.btn-negro:hover{
-    color: black;
-    border-color: black;
+#btnScroll:hover {
+    background-color: white;
+    border-color: #ddc190;
 }
 
+/* Creditos */
+.creditos p {
+    font-size: 20px;
+    text-align: end;
+}
+
+#ver{
+    font-size: 15px;
+}
+
+#ver:hover{
+    color: #ddc190;
+}
+
+/* Modal */
 .modal-content {
     width: 50%;
     margin: 15% auto;
@@ -83,14 +107,4 @@ h3{
     color: black;
     text-decoration: none;
     cursor: pointer;
-  }
-
-.creditos p{
-    font-size: 20px;
-    text-align: end;
-}
-
-#btnScroll:hover {
-    background-color: white;
-    border-color: #ddc190;
   }
