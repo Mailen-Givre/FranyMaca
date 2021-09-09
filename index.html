@@ -21,6 +21,7 @@
           media="(min-width:1024px)"
         />
         <script src="./js/faltan.js"defer></script>
+        <script src="./js/modal.js"defer></script>
         <title>Fran y Maca</title>
     </head>
 <body>
@@ -59,8 +60,21 @@
     <div class="dorado altura">
         <img class="icono" src="./multimedia/regalo.svg" alt="datosBancarios">
         <p class="info">Si deseás realizarnos un regalo podés colaborar con nuestra Luna de Miel...</p>
-        <button class="btn btn-blanco">Ver datos bancarios</button>
+        <button class="btn btn-blanco" id="btnModal">Ver datos bancarios</button>
     </div>
+
+    <div id="regaloModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 class="color">DATOS BANCARIOS</h3>
+            <p class="negro"> 
+                Nombre del Titular: Pancho260 <br>
+                CBU: 12345623561 <br>
+                DNI: 32200552 <br>
+                Banco Galicia
+            </p>
+          </div>
+    </div>>
 
     <div class="blanco altura">
         <h3 class="color paddingTop">CONFIRMACIÓN DE ASISTENCIA</h3>
@@ -93,6 +107,10 @@
     <div class="verde">
         <p class="info paddingTop">¡Gracias por acompañarnos en este momento tan importante!</p>
         <p class="info paddingBottom">¡POR LA ALIANZA!</p>
+    </div>
+    <div class=" altura blanco creditos">
+        <p class="color">Página diseñada por Mailén Givré</p>
+        <a href="https://github.com/Mailen-Givre" target="_blank"><p class="color negro">Ver más</p></a>
     </div>
 </body>
 </html>

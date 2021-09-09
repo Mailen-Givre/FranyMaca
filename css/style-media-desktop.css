@@ -13,6 +13,11 @@
     margin-left: 10rem;
 }
 
+.backGold{
+    height: 12rem;
+    padding-top: 2rem;
+}
+
 .imagenes{
     width: 80%;
     margin: 0 auto;
@@ -56,7 +61,6 @@ h3{
 }
 
 .btn-blanco:hover{
-    /* TODO modal */
     background-color: #ddc190;
     color: white;
     border-color: white;
@@ -65,4 +69,14 @@ h3{
 .btn-negro:hover{
     color: black;
     border-color: black;
+}
+
+.modal-content {
+    width: 50%;
+    margin: 15% auto;
+}
+
+.creditos p{
+    font-size: 20px;
+    text-align: end;
 }
