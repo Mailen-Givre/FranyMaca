@@ -22,9 +22,10 @@
     width: 40%;
 }
 
-.imagenes{
-    display: flex;
-    flex-wrap:wrap;
+.img{
+    width: 20rem;
+    height: 20rem;
+    margin: 2rem auto;
 }
 
 .espacio{

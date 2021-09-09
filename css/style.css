@@ -166,14 +166,19 @@ a{
 
 .imagenes{
     padding-bottom: 2rem;
+    display: flex;
+    flex-wrap:wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+
 }
 
 .img{
     border-radius: 1rem;
-    width: 18rem;
-    height: 18rem;
+    width: 9rem;
+    height: 9rem;
     display: block;
-    margin: 2rem auto;
+    margin-bottom: 0.5rem;
     object-fit: cover;
 }
 
