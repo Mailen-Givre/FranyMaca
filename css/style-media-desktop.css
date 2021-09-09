@@ -39,18 +39,30 @@ h3{
     padding: 3rem 0;
 }
 
-.regalo{
-    height: 20rem;
-}
-
 .flechaAbajo{
     width: 3rem;
 }
 
 .btn:hover{
     cursor: pointer;
+    background-color: white;
+    color: #ddc190;
+    border: 1px solid #ddc190;
 }
 
 .img:hover{
     cursor: pointer;
+    transform: scale(1.2);
+}
+
+.btn-blanco:hover{
+    /* TODO modal */
+    background-color: #ddc190;
+    color: white;
+    border-color: white;
+}
+
+.btn-negro:hover{
+    color: black;
+    border-color: black;
 }

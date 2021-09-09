@@ -132,7 +132,7 @@ h3{
     font-weight: 300;
     border-radius: 2rem;
     border: none;
-    padding: 0.5rem 1rem;
+    padding: 1rem 2rem;
     display: block;
     margin: 2rem auto;
 }
@@ -158,6 +158,9 @@ a{
     object-fit: cover;
 }
 
+#moverImg{
+    object-position: 0 10%;
+}
 
 .dorado{
     background-color: #ddc190;
