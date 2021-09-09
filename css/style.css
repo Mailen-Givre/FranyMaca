@@ -29,7 +29,10 @@
     width: 100%;
     z-index: 0;
     margin: 60vh auto 0 auto;
-    background: linear-gradient(to top,  rgba(255,255,255,1) 50%,rgba(255,255,58,0) 100%)
+    background: linear-gradient(to top,  rgba(255,255,255,1) 50%,rgba(255,255,58,0) 100%);
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .nosCasamos{
@@ -38,6 +41,9 @@
     padding: 30% 0 5% 0;
     margin: 60vh auto 0 auto;
     z-index: 1;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .flechaAlto{
@@ -58,7 +64,7 @@
     z-index: 2;
     width: 60%;
     position: absolute;
-    margin-top: -8rem;
+    bottom: 0;
 }
 
 
