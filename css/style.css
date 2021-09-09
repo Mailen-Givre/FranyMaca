@@ -100,7 +100,7 @@ h3{
     margin: 0 auto;
 }
 
-.blanco{
+.fondoBlanco{
     background-color: white;
 }
 
@@ -117,7 +117,7 @@ h3{
     margin: 0 auto;
 }
 
-.color{
+.fuenteDorado{
     color:#ddc190;
 }
 
@@ -162,7 +162,7 @@ a{
     object-position: 0 10%;
 }
 
-.dorado{
+.fondoDorado{
     background-color: #ddc190;
 }
 
@@ -183,7 +183,7 @@ a{
     background-color: #a3b49b;
 }
 
-.negro{
+.fuenteNegra{
     color: black;
 }
 
