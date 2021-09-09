@@ -1,6 +1,8 @@
 .photoBackground{
-    background-image: url(../multimedia/nosCasamosFoto2.jpg);
     max-width:1024px;
+    background-position: center center;
+    background-size:cover;
+    top: -70px;
 }
 
 .fundido{
