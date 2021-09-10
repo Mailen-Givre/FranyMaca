@@ -86,8 +86,8 @@ a{
 .photoBackground{
     background-image: url(../multimedia/nosCasamosFoto2.jpg);
     background-repeat: no-repeat;
-    background-size: 155%;
-    background-position: 85% 0;
+    background-size: 280%;
+    background-position: 70% 70%;
     position: fixed;
     top: -55px;
     left: 0;
@@ -98,21 +98,55 @@ a{
     z-index: -1;
 }
 
+/* .photoBackground{
+    background-image: url(../multimedia/nosCasamosFoto2.jpg);
+    background-repeat: no-repeat;
+    background-size: 155%;
+    background-position: 85% 0;
+    position: fixed;
+    top: -55px;
+    left: 0;
+    min-height: 100%;
+    max-width: 480px;
+    width: 100%;
+    height: auto; 
+    z-index: -1;
+} */
+
 .fundido{
     width: 100%;
     z-index: 0;
     margin: 0 auto;
-    background: linear-gradient(to top,  rgba(255,255,255,1) 50%,rgba(255,255,58,0) 100%);
+    /* background: linear-gradient(to top,  rgba(255,255,255,1) 50%,rgba(255,255,58,0) 100%); */
+    background: linear-gradient(180deg, rgba(255,255,255,0) 80%, rgba(255,255,255,0.5917717428768383) 90%, rgba(255,255,255,1) 100%);
     position: relative;
     top: 0;
     left: 0;
+    height: 100vh;
+    overflow: hidden;
 }
 
-.nosCasamos{
+/* .nosCasamos{
     width: 70%;
     display: block;
     padding: 60% 0 5% 0;
     margin: 10vh auto 0 auto;
+    z-index: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+} */
+
+.nosCasamos{
+    display:none;
+}
+
+.nosCasamos2{
+    width: 75%;
+    display: block;
+    /* margin: 10vh auto 0 auto; */
+    margin: 0 auto;
+    padding: 80vh 0;
     z-index: 1;
     position: relative;
     top: 0;
@@ -129,9 +163,11 @@ a{
     width: 2rem;
     display: block;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 0 0 0.5rem 0;
     z-index: 1;
     animation: MoveUpDown 2s linear infinite;
+    bottom: 0;
+    position: absolute;
 }
   
   @keyframes MoveUpDown {
@@ -154,11 +190,13 @@ a{
     margin: 0 auto;
 }
 
+
 .hojas{
     z-index: 2;
     width: 60%;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: -9rem; */
+    display: hidden;
 }
 
 .backGold{

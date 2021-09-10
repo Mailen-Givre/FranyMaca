@@ -6,20 +6,31 @@
 }
 
 .fundido{
-    margin-top: 55vh;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 40%, rgba(255,255,255,0.5917717428768383) 90%, rgba(255,255,255,1) 100%);
 }
 
 .nosCasamos{
+    display: initial;
     width: 40%;
-    margin-left: 2rem;
-    margin-top: 0;
-    padding: 1rem 0 0 0;
+    padding: 15rem 0 0 0;
+    display: block;
+    margin: 0 auto 0 2rem;
+    z-index: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.nosCasamos2{
+    display: none;
 }
 
 .hojas{
     right:0;
     transform: scaleX(-1);
-    width: 40%;
+    position: absolute;
+    bottom: 0;
+    display: initial;
 }
 
 .img{

@@ -24,14 +24,15 @@ h3{
     top:0;
 }
 
-.fundido{
+/* .fundido{
     margin-top: 65vh;
-    background: linear-gradient(to top,  rgba(255,255,255,1) 10%,rgba(255,255,58,0) 100%);
-}
+    background: linear-gradient(180deg, rgba(255,255,255,0) 40%, rgba(255,255,255,0.5917717428768383) 90%, rgba(255,255,255,1) 100%);
+} */
 
 .nosCasamos{
     width: 30%;
     margin-left: 10rem;
+    padding: 5rem 0 0 0;
 }
 
 .backGold{
@@ -46,6 +47,10 @@ h3{
 
 .flechaAbajo{
     width: 3rem;
+}
+
+.hojas{
+    width: 20%;
 }
 
 .img:hover{
