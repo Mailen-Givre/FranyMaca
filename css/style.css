@@ -145,6 +145,15 @@ a{
     }
 }
 
+.scrollDown{
+    border: none;
+    color: none;
+    background-color: Transparent;
+    cursor:pointer;
+    display: block;
+    margin: 0 auto;
+}
+
 .hojas{
     z-index: 2;
     width: 60%;
