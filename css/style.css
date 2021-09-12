@@ -156,18 +156,13 @@ a{
 .flechaAlto{
     height: 6rem;
     margin-top: -0.5rem;
-
 }
 
 .flechaAbajo{
     width: 2rem;
-    display: block;
-    margin: 0 auto;
     padding: 0 0 0.5rem 0;
     z-index: 1;
     animation: MoveUpDown 2s linear infinite;
-    bottom: 0;
-    position: absolute;
 }
   
   @keyframes MoveUpDown {
@@ -186,8 +181,12 @@ a{
     color: none;
     background-color: Transparent;
     cursor:pointer;
-    display: block;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 
