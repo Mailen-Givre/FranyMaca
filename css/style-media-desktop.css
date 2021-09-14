@@ -24,11 +24,6 @@ h3{
     top:0;
 }
 
-/* .fundido{
-    margin-top: 65vh;
-    background: linear-gradient(180deg, rgba(255,255,255,0) 40%, rgba(255,255,255,0.5917717428768383) 90%, rgba(255,255,255,1) 100%);
-} */
-
 .nosCasamos{
     width: 30%;
     margin-left: 10rem;
@@ -53,22 +48,27 @@ h3{
     width: 20%;
 }
 
+.img{
+    transition: 0.3s;
+}
+
 .img:hover{
     cursor: pointer;
     transform: scale(1.2);
-    border: 0.3rem solid white;
+    /* border: 0.3rem solid white; */
 }
 
 /* Botones */
 .btn{
     font-size: 25px;
+    transition: 0.3s;
 }
 
 .btn:hover{
     cursor: pointer;
     background-color: white;
     color: #ddc190;
-    border: 4px solid #ddc190;
+    border: 3px solid #ddc190;
 }
 
 .btn-negro:hover{
@@ -94,11 +94,21 @@ h3{
 }
 
 #ver{
-    font-size: 15px;
+    font-size: 18px;
 }
 
-#ver:hover{
+#linkedin{
+    font-size: 18px;
+}
+
+#linkedin:hover{
     color: #ddc190;
+}
+
+.linkedin{
+    justify-content:flex-end;
+    width: auto;
+    margin-right: 4rem;
 }
 
 /* Modal */

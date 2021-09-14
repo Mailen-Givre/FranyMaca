@@ -98,26 +98,10 @@ a{
     z-index: -1;
 }
 
-/* .photoBackground{
-    background-image: url(../multimedia/nosCasamosFoto2.jpg);
-    background-repeat: no-repeat;
-    background-size: 155%;
-    background-position: 85% 0;
-    position: fixed;
-    top: -55px;
-    left: 0;
-    min-height: 100%;
-    max-width: 480px;
-    width: 100%;
-    height: auto; 
-    z-index: -1;
-} */
-
 .fundido{
     width: 100%;
     z-index: 0;
     margin: 0 auto;
-    /* background: linear-gradient(to top,  rgba(255,255,255,1) 50%,rgba(255,255,58,0) 100%); */
     background: linear-gradient(180deg, rgba(255,255,255,0) 80%, rgba(255,255,255,0.5917717428768383) 90%, rgba(255,255,255,1) 100%);
     position: relative;
     top: 0;
@@ -126,17 +110,6 @@ a{
     overflow: hidden;
 }
 
-/* .nosCasamos{
-    width: 70%;
-    display: block;
-    padding: 60% 0 5% 0;
-    margin: 10vh auto 0 auto;
-    z-index: 1;
-    position: relative;
-    top: 0;
-    left: 0;
-} */
-
 .nosCasamos{
     display:none;
 }
@@ -144,7 +117,6 @@ a{
 .nosCasamos2{
     width: 75%;
     display: block;
-    /* margin: 10vh auto 0 auto; */
     margin: 0 auto;
     padding: 80vh 0;
     z-index: 1;
@@ -156,7 +128,6 @@ a{
 .flechaAlto{
     height: 6rem;
     margin-top: -0.5rem;
-
 }
 
 .flechaAbajo{
@@ -194,8 +165,6 @@ a{
 .hojas{
     z-index: 2;
     width: 60%;
-    /* position: absolute;
-    bottom: -9rem; */
     display: hidden;
 }
 
@@ -217,7 +186,6 @@ a{
     flex-wrap:wrap;
     margin: 0 auto;
     justify-content: space-between;
-
 }
 
 .img{
@@ -231,6 +199,12 @@ a{
 
 #moverImg{
     object-position: 0 10%;
+}
+
+.mapa{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
 }
 
 /* Botones */
@@ -286,6 +260,23 @@ a{
     font-size: 12px;
 }
 
+#linkedin{
+    color: #a3b49b;
+    font-size: 12px;
+    margin: 0.25rem 0 0 1rem;
+}
+
+.linkedin{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    margin-left: 5rem;
+}
+
+#icono-li{
+    width: 1rem;
+}
+
  /* Modal*/
 .modal {
     display: none;
@@ -316,6 +307,20 @@ a{
     float: right;
     font-size: 28px;
     font-weight: bold;
+}
+
+/* Covid */
+.protocolo{
+    width: 100vw;
+    height: auto;
+}
+
+.covid{
+    margin-bottom: 1rem;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 2rem;
+    width: 80%;
 }
   
   
