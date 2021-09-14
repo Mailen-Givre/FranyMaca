@@ -84,7 +84,7 @@ a{
 
 /* Imgs */
 .photoBackground{
-    background-image: url(../multimedia/nosCasamosFoto2.jpg);
+    background-image: url(../multimedia/2.jpg);
     background-repeat: no-repeat;
     background-size: 280%;
     background-position: 70% 70%;
@@ -132,13 +132,9 @@ a{
 
 .flechaAbajo{
     width: 2rem;
-    display: block;
-    margin: 0 auto;
     padding: 0 0 0.5rem 0;
     z-index: 1;
     animation: MoveUpDown 2s linear infinite;
-    bottom: 0;
-    position: absolute;
 }
   
   @keyframes MoveUpDown {
@@ -157,8 +153,12 @@ a{
     color: none;
     background-color: Transparent;
     cursor:pointer;
-    display: block;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 

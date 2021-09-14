@@ -1,46 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./swipebox/src/css/swipebox.min.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=WindSong:wght@500&display=swap" rel="stylesheet">
-
-        <link rel="stylesheet" href="./css/style.css" />
-        <link
-          rel="stylesheet"
-          href="./css/style-media-tablet.css"
-          media="(min-width:480px)"
-        />
-    
-        <link
-          rel="stylesheet"
-          href="./css/style-media-desktop.css"
-          media="(min-width:1024px)"
-        />
-
-        <title>Fran y Maca</title>
-
-        <link rel="icon" 
-            type="image/png" 
-            href="./multimedia/leito.png">
-
-        <script src="./js/faltan.js"defer></script>
-        <script src="./js/modal.js"defer></script>
-        <script src="./js/scrollTop.js"defer></script>
-        <script src="./js/scrollDown.js"defer></script>
-    
-    </head>
+<!-- HEAD -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./swipebox/src/css/swipebox.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=WindSong:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style-media-tablet.css" media="(min-width:480px)" />
+    <link rel="stylesheet" href="./css/style-media-desktop.css" media="(min-width:1024px)" />
+    <title>Fran y Maca</title>
+    <link rel="icon" type="image/png" href="./multimedia/leito.png">
+    <script src="./js/faltan.js" defer></script>
+    <script src="./js/modal.js" defer></script>
+    <script src="./js/scrollTop.js" defer></script>
+    <script src="./js/scrollDown.js" defer></script>
+</head>
+<!-- BODY -->
 <body>
     <div class="photoBackground"></div>
     <div class="fundido">
         <img class="nosCasamos" src="./multimedia/NosCasamos.svg" alt="Nos Casamos Maca y Fran"></img>
         <img class="nosCasamos2" src="./multimedia/NosCasamos2.svg" alt="Nos Casamos Maca y Fran"></img>
         <img class="hojas" src="./multimedia/hojas.svg" alt="hojas">
-        <button class="scrollDown" onClick="smoothScroll(document.getElementById('toHere'))"><img id="scrollDown" class="flechaAbajo" src="./multimedia/arrowDown.svg" alt="flecha abajo"></button>
+        <button class="scrollDown" onClick="smoothScroll(document.getElementById('toHere'))"><img id="scrollDown"
+                class="flechaAbajo" src="./multimedia/arrowDown.svg" alt="flecha abajo"></button>
     </div>
     <div class="backGold">
         <p id="toHere">Faltan</p>
@@ -89,7 +78,6 @@
         <p class="info">Si deseás realizarnos un regalo podés colaborar con nuestra Luna de Miel...</p>
         <button class="btn btn-blanco" id="btnModal">Ver datos bancarios</button>
     </div>
-
     <div id="regaloModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
@@ -104,7 +92,7 @@
                 <b>CBU U$D:</b> 0170155144000051326595 <br>
                 <b>Alias:</b> URANO.MEDUSA.BLANCO
             </p>
-          </div>
+        </div>
     </div>
     <div class="fondoBlanco altura">
         <h3 class="fuenteDorado paddingTop">CONFIRMACIÓN DE ASISTENCIA</h3>
@@ -117,13 +105,13 @@
         <h3 class="paddingTop">DRESSCODE</h3>
         <p class="info paddingBottom">Vestimenta formal, elegante</p>
     </div>
-
     <div class="transparente altura">
         <img class="icono" src="./multimedia/instagram.svg" alt="instagram">
         <h3 class="fuenteNegra">#FRANYMACA</h3>
         <p class="info fuenteNegra">¡Preparate para nuestro gran día!
             Ya podés etiquetarnos en Instagram con nuestro hashtag en tus fotos o videos.</p>
-        <a href="https://www.instagram.com/explore/tags/franymaca/" target="_blank"><button class="btn btn-negro">Ver fotos instagram</button></a>
+        <a href="https://www.instagram.com/explore/tags/franymaca/" target="_blank"><button class="btn btn-negro">Ver
+                fotos instagram</button></a>
     </div>
     <div class="fondoBlanco altura">
         <h3 class="fuenteDorado paddingTop">¿QUÉ CANCIONES NO PUEDEN FALTAR?</h3>
@@ -145,11 +133,12 @@
         <p id="ver"><b>Contacto:</b> mailen.givre@gmail.com</p>
         <a class="linkedin" href="https://www.linkedin.com/in/mailen-givre/" target="_blank"><img id="icono-li" src="./multimedia/linkedin.svg" alt="linkedIn"> <p id="linkedin">LinkedIn</p></a> 
     </div>
-    <button onclick="topFunction()" id="btnScroll" title="Go to top"><img class="flechaArriba" src="./multimedia/arrowDown.svg" alt="scroll to top"></button>
-
-
+    <button onclick="topFunction()" id="btnScroll" title="Go to top"><img class="flechaArriba"
+            src="./multimedia/arrowDown.svg" alt="scroll to top"></button>
+    <!-- SCRIPTS -->
     <script src="./swipebox/lib/jquery-3.5.1.min.js"></script>
     <script src="./swipebox/src/js/jquery.swipebox.min.js"></script>
     <script src="js/gallery.js"></script>
 </body>
+
 </html>
