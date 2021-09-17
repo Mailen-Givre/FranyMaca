@@ -82,6 +82,12 @@ h3{
     border-color: white;
 }
 
+.btn-verde:hover{
+    background-color: #a3b49b;
+    color: white;
+    border-color: white;
+}
+
 #btnScroll:hover {
     background-color: white;
     border-color: #ddc190;
